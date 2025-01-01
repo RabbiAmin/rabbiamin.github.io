@@ -3,12 +3,13 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    color: #333;
+    color: #f0f0f0;
+    background-color: #121212;
 }
 
 header {
-    background-color: #1abc9c;
-    color: white;
+    background-color: #1e1e1e;
+    color: #76c7c0;
     padding: 2rem 0;
     text-align: center;
 }
@@ -24,7 +25,7 @@ header p {
 }
 
 nav {
-    background-color: #16a085;
+    background-color: #292929;
     padding: 1rem 0;
     text-align: center;
 }
@@ -41,14 +42,14 @@ nav .nav-links li {
 }
 
 nav .nav-links a {
-    color: white;
+    color: #76c7c0;
     text-decoration: none;
     font-weight: bold;
 }
 
 .section {
     padding: 2rem 0;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #333;
 }
 
 .container {
@@ -60,7 +61,7 @@ nav .nav-links a {
 h2 {
     margin-bottom: 1rem;
     font-size: 2rem;
-    color: #1abc9c;
+    color: #76c7c0;
 }
 
 .project, .skills-list li {
@@ -68,14 +69,30 @@ h2 {
 }
 
 .project a, #contact a {
-    color: #1abc9c;
+    color: #76c7c0;
     text-decoration: none;
     font-weight: bold;
 }
 
 footer {
-    background-color: #333;
-    color: white;
+    background-color: #292929;
+    color: #f0f0f0;
     text-align: center;
     padding: 1rem 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    background: #1e1e1e;
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
 }
